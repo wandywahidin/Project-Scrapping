@@ -1,17 +1,11 @@
 """
 Aplikasi deteksi gempa terkini
 """
-
-
-def ekstraksi_data():
-    pass
-
-
-def tampilkan_data(result):
-    pass
-
+import Scrapping_BMKG
 
 if __name__ == '__main__':
     print('Aplikasi utama')
-    result = ekstraksi_data()
-    tampilkan_data(result)
+    result = Scrapping_BMKG.ekstraksi_data()
+    Scrapping_BMKG.tampilkan_data(result)
+
+
