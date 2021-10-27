@@ -4,6 +4,7 @@ Code yang pertama kali dijalankan ketika main.py di run
 import requests
 from bs4 import BeautifulSoup
 
+
 def ekstraksi_data():
     """
     tanggal : 26 Oktober 2021
