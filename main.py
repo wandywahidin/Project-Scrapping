@@ -1,5 +1,5 @@
 """
-Aplikasi deteksi gempa terkini
+Aplikasi deteksi gempa terkini dibuka ke 2
 """
 import Scrapping_BMKG
 
